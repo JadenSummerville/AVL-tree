@@ -5,7 +5,7 @@ import java.util.Scanner;
 */
 class Avl{
     private Node node;
-    private final boolean DEBUG = true;
+    private final boolean DEBUG = false;
     // CheckRep methods
     private void checkRep(){
         if(node == null || !DEBUG){
